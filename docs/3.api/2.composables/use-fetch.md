@@ -34,7 +34,7 @@ Using the `query` option, you can add search parameters to your query. This opti
 ```ts
 const param1 = ref('value1')
 const { data, pending, error, refresh } = await useFetch('/api/modules', {
-  query: { param1, param2: 'value2' }
+  query: { param1: 'value1', param2: 'value2' }
 })
 ```
 
